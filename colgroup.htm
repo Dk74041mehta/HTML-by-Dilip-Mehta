@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table,td,tr
+        th{
+          border: 2px solid rgb(15, 15, 15);
+          border-collapse: collapse;
+          text-align: center;
+          caption-side: bottom;
+        }
+      </style>
+
+</head>
+<body>
+
+
+
+
+
+<H1>colgroup(col->span->style)</H1>
+<table>
+  <colgroup>
+    
+      <col span="1" style="background-color: rgb(235, 88, 14);">
+      <!-- <col span="1"> -->
+      <col span="1" style="background-color: rgb(255, 255, 255);">
+      <col span="1" style="background-color: rgb(255, 255, 255);">
+      <col span="1" style="background-color: rgb(24, 173, 26);">
+      <!-- for invisbility of column -->
+      <!-- <col span="" style="visibility:collapse;"> -->
+  </colgroup>
+
+
+  <tr>
+      <td rowspan="2">state of <br>health</td>
+      <td colspan="2">fasting value</td>
+
+      <td>after eating</td>
+  </tr>
+  <tr>
+
+      <td>minum </td>
+      <td>maximum</td>
+      <td>2 hour after eating</td>
+  </tr>
+  <tr>
+      <td>healthy</td>
+      <td>70</td>
+      <td>100</td>
+      <td>less than 140</td>
+  </tr>
+  <tr>
+      <td>pre-diebating</td>
+      <td>101</td>
+      <td>126</td>
+      <td>200</td>
+  </tr>
+  <tr>
+      <td>diabates</td>
+      <td>more tahn126</td>
+      <td>na</td>
+      <td> more than 200</td>
+  </tr>
+  </table>
+    
+</body>
+</html>

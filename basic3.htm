@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BASICS-3</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+     
+
+      <style>
+
+        label,select{
+            width: 100px;
+            display: inline-block;
+            margin-left: 1cm;
+        
+        }
+
+        input,select{
+            margin-top: 10px;
+            border-color: rgb(18, 115, 18);
+        }
+        /* select{
+            margin-left: 0.5cm;
+        } */
+
+        #son{
+
+            margin-left: 2cm;
+        }
+
+    
+        
+    form    {
+            background-color: rgb(16, 18, 17);
+            color:white;
+
+
+
+        }
+      </style>
+</head>
+<body>
+<hr>
+<h1>1)Form using form Tag(form,label,input tag)</h1>
+  
+    <form> 
+        <fieldset>
+
+    <legend>Your Data </legend>
+        <label for="name">Name</label> 
+        <input required  type="text" id="name"/> <br>
+        <label for="email">Email</label> 
+        <input type="email" id="email" /> <br>
+        <label for="telnum">Tel No.</label> 
+        <input type="telnum" id="telnum" /> <br>
+
+
+
+        <label for="Roll No.">Roll No.</label> 
+        <input type="number" id="rollno" /> <br>
+        
+        <label type="sherni">Anime</label>
+        <select id="sherni">
+            <option value="bleach">Bleach</option>
+            <option value="MHA">MHA</option>
+            
+            <option value="onepiece">one piece</option>
+            <option value="naruto">MHA</option>
+        </select><br>
+        <input type="submit"  id="son">
+    </fieldset>
+    </form> 
+
+
+    <!-- 2)form using table tag(table,,tr,td,label,input -->
+
+<h1>2)form using table tag(table,,tr,td,label,input)</h1>
+
+<h2>welcome to Mehtabea</h2>
+<table>
+  <tr>
+    <td>
+      <label for="username">username:</label>
+    </td>
+    <td>
+      <input type="text" name="username" />
+    </td>
+  </tr>
+  <tr>
+    <td><label for="password">password:</label></td>
+    <td><input type="text" name="password"></td>
+  </tr>
+</table>
+
+<br>
+
+<button>submit</button>
+
+<h1>3)Table tag(table,thead,th,tbody,tr,td,tfoot)</h1>
+
+<table>
+    <caption>Myfirst saving</caption>
+
+    <thead>
+        <th>month</th>
+        <th>shaving</th>
+        <th>profit</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>jan</td>
+            <td>300</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td>march</td>
+            <td>700</td>
+            <td>690</td>
+        </tr>
+        <tr>
+            <td>december</td>
+            <td>899</td>
+            <td>789</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>total</td>
+            <td>x<sup>value</sup></td>
+            <td>y<sub>value</sub></td>
+        </tr>
+    </tfoot>
+</table>
+
+<h1>
+    4) colspan aNd rowspan
+ </h1>
+ <table>
+    <caption>
+      my first table
+    </caption>
+    <tr>
+      <th colspan="2">month</th>
+    </tr>
+    <tr>
+      <th rowspan="2" colspan="2">jan</th>
+    </tr>
+    <tr></tr>
+    <tr>
+      <th>march</th>
+      <th>700</th>
+    </tr>
+    <tr>
+      <td>total</td>
+      <td>1000</td>
+    </tr>
+  </table>
+
+
+
+
+<h1>The audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+
+  <source src="censor.mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<h1>The video element</h1>
+
+<video width="440px" height="250px" controls>
+  <source src="https://media.istockphoto.com/id/907890622/video/crashed-car-on-fire-at-night.mp4?b=1&s=mp4-640x640-is&k=20&c=ZKRtm6x6-3pbILAcEh05Ro0ZvTOukJoAiIfGUe0W1jI=" type="video/mp4">
+
+  Your browser does not support the video tag.
+</video>
+
+
+</body>
+</html>

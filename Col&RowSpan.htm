@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      
+<style>
+
+    th,td,table,tr{
+
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+</head>
+<body>
+  
+
+<h1>Colspan and Rowspan</h1>
+
+
+<table>
+<thead> 
+    
+    <tr>
+  <th rowspan="3">Day</th>
+  <th colspan="3">seminar</th>
+  </tr>
+
+  <tr>
+    <th colspan="2">schedule</th>
+    <th rowspan="2">topic</th>
+  </tr>
+
+  <tr>
+    <th>begin</th>
+    <th>end</th>
+  </tr>
+  </thead>
+<tbody>
+    <tr>
+    <td rowspan="2">monday</td>
+    <td rowspan="2">8am</td>
+    <td rowspan="2">11am</td>
+    <td>introduction to basics html and css</td>
+</tr>
+<tr>
+    <td>tailwind</td>
+</tr>
+
+    <tr>
+        <td rowspan="3">Tuesday</td>
+    <td>12am</td>
+    <td>2pm</td>
+    <td>javascript</td>
+</tr>
+<tr>
+     <td>3pm</td>
+<td>5pm</td>
+<td rowspan="2">JS DOM</td>
+</tr>
+
+<tr>
+
+<td>6pm</td>
+<td>7pm</td>
+
+</tr>
+
+<tr>
+    <td>Wednesday</td>
+<td>8pm</td>
+<td>10pm</td>
+<td>React</td>
+</tr>
+
+
+</tbody>
+  
+</table>
+ 
+</body>
+</html>
